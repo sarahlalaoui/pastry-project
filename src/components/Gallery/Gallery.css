@@ -1,0 +1,42 @@
+.Gallery img {
+  width: 1920px;
+  height: 2880px;
+}
+.gallery-container{
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 12%;
+}
+
+.gallery-container h2{
+    margin-bottom: 5%;
+}
+
+.gallery{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+.gallery img{
+    width: 20%;
+    height: auto;
+}
+
+.gallery-container .button{
+    padding: 1.5% 2%;
+    font-size: 1.3em;
+}
+.button{
+    background-color: antiquewhite;
+    padding: 0.5em 1em;
+    font-size: 1.2em;
+    border-radius: 5px;
+    border:3px solid rgb(85, 49, 2);
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: rgb(245, 212, 169);
+    text-shadow: 2px 2px 3px rgb(87, 86, 86);
+}

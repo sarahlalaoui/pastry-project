@@ -1,0 +1,34 @@
+
+.about h2 {
+    font-size: 2em;
+    color: rgb(116, 80, 15);
+    font-weight: 600;
+}
+
+.about h2, .about h3{
+    font-family: 'Merriweather', serif; 
+}
+
+.about p{
+    font-size: 1.2em;
+    line-height: 30px;
+    font-family: 'Cabin', sans-serif;
+    letter-spacing: 1px;
+}
+
+.about{
+    display: flex;
+    margin-top: 5%;
+    align-items: center;
+}
+
+.about img{
+    width: 40%;
+    height: auto;
+
+
+}
+
+.about section{
+    padding: 0 5%;
+}

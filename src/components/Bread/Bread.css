@@ -1,0 +1,27 @@
+.product{
+    margin-left: 260px;
+}
+
+.product h2{
+    padding-left: 40px;
+    color: rgb(56, 45, 45)
+}
+
+.product-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 0 5% 8% 5%;
+}
+
+#bread{
+    margin-top: 80px;
+    display: inline-block;
+    width: 100%;
+}
+
+#bread img{
+    width: 120px;
+    height: auto;
+}

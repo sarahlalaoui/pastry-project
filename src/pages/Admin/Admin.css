@@ -1,0 +1,56 @@
+body{
+    background-color: #f1e7de;
+}
+.admin-container {
+    max-width: 400px;
+    margin: auto; /* Pour centrer horizontalement */
+    margin-top: 140px; /* Pour espacer du haut */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin-heading {
+    text-align: center;
+    color: #9b6f49; 
+}
+
+.admin-form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    display: block;
+    font-size: 16px;
+    color: #555;
+}
+
+.form-input {
+    width: 100%;
+    padding: 7px;
+    font-size: 15px;
+    border: 1px solid #ecd5a9;
+    border-radius: 5px;
+}
+
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #9b6f49; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #ce8443ba; /* Darker orange on hover */
+}

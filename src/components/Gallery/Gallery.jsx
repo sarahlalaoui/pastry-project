@@ -30,7 +30,9 @@ const Gallery = () => {
                         
                     </div>
                 </div>
-                <Link ><button className="button">Check see Our product</button></Link>
+                <div>
+              <Link to="/Product"><button className="button">Check see Our product</button></Link>
+            </div>
             </div>
     );
 };

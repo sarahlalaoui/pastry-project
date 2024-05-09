@@ -1,0 +1,16 @@
+.cake{
+    padding-left: 300px;
+    color: rgb(56, 45, 45);
+}
+#cupcake img, #cake img, #donut img{
+    width:100px;
+    height: auto;
+    margin-left: 300px;
+}
+
+#cookie img, #pie img{
+    width:160px;
+    height: auto;
+    margin-left: 300px;
+
+}

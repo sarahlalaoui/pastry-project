@@ -1,8 +1,35 @@
 import { Link } from "react-router-dom";
 import "./Product.css";
+import { NavLink } from "react-router-dom";
+import Bread from "../../components/Bread/Bread";
+import Cake from "../../components/Cake/Cake";
+import Footer from "../../components/Footer/Footer";
 
 const product = () => {
   return (
+    <div className="container">
+    <nav>
+      <header>
+        <h2>patisserie le mistral</h2>
+        <ul className="list">
+          <li className="navl">
+            <NavLink to="/">Home</NavLink>
+          </li>
+          <li className="navl">
+            <a href="#About">About us</a>
+          </li>
+          <li className="navl">
+            <NavLink to="/product">our product</NavLink>
+          </li>
+          <li className="navl">
+            <NavLink to="/Contact">Contact</NavLink>
+          </li>
+        </ul>
+        </header>
+        </nav>
+
+  
+     
     <div className="menu-container">
       <div className="second-menu">
         <nav>
@@ -28,7 +55,13 @@ const product = () => {
           </ul>
         </nav>
       </div>
+      <Bread></Bread>
+      <Cake></Cake>
+      <Footer></Footer>
     </div>
+    </div>
+   
+   
   );
 };
 

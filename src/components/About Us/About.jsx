@@ -5,7 +5,7 @@ import baker from "../../assets/baker.jpg"
 const About = () => {
     return (
        
-             <div className="about">
+             <div className="about" id="About">
                 <section>
                     <h2>About Us</h2>
                     <p>We are a company that primarily specializes in bread among other things. We cater to many banquet halls, restaurants and grocery stores across the GTA. and have been doing so successfully for over 40 years! </p>

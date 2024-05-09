@@ -1,0 +1,29 @@
+.admin-dashboard {
+    width: 100%;
+
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 150px;
+  }
+  
+  .dashboard-navigation {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-navigation button {
+    margin: 0 10px;
+    padding: 150px 100px;
+    font-size: 16px;
+    background-color: #b49c74;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .dashboard-navigation button:hover {
+    background-color: #e59526a2;
+  }
+  

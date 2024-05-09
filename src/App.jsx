@@ -4,9 +4,9 @@ import Home from "./pages/Home/Home";
 import "./App.css";
 import Gallery from "./components/Gallery/Gallery";
 import Maps from "./components/maps/Maps";
-import Product from "./pages/Product/Product";
-import Contact from "./pages/Contact/Contact";
 import Footer from "./components/Footer/Footer";
+
+
 
 const App = () => {
   return (
@@ -21,8 +21,13 @@ const App = () => {
       <Gallery></Gallery>
       <Maps></Maps>
 
-      <Contact></Contact>
+
+      
       <Footer></Footer>
+    
+   
+   
+      
     </div>
   );
 };

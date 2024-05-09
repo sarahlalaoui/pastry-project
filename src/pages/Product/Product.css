@@ -1,0 +1,53 @@
+.container h2 {
+  font-family: "Rowdies", cursive;
+  font-size: 1.5em;
+  margin-left: 50px;
+}
+
+.menu-container {
+  padding: 0 5%;
+  margin-bottom: 50px;
+}
+
+.second-menu {
+  position: fixed;
+  top: 30%;
+  left: 3%;
+  border: 3px solid rgb(128, 102, 71);
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px #7e7c7b;
+  background-color: rgb(252, 248, 237);
+}
+
+.second-menu ul {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  list-style: none;
+}
+
+.second-menu li {
+  padding: 8px 0;
+}
+
+.second-menu a {
+  color: #b56f0d;
+  letter-spacing: 2px;
+  font-size: 1.5em;
+}
+
+.second-menu a:hover {
+  text-shadow: 2px 2px 3px rgb(185, 185, 185);
+}
+
+#cake-anchor,
+#cupcake-anchor,
+#cookie-anchor,
+#donut-anchor,
+#pie-anchor {
+  margin-bottom: 90px;
+  margin-left: 200px;
+  border-bottom: 8px dotted rgb(253, 189, 52);
+}
+

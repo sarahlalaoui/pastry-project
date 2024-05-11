@@ -5,8 +5,8 @@
 }
 
 .menu-container {
-  padding: 0 5%;
   margin-bottom: 50px;
+  
 }
 
 .second-menu {
@@ -17,7 +17,14 @@
   padding: 20px 40px;
   border-radius: 10px;
   box-shadow: 2px 2px 8px #7e7c7b;
-  background-color: rgb(252, 248, 237);
+  background-color: #ebe4ca;
+  
+}
+.second-menu a {
+  color: #b56f0d;
+  letter-spacing: 2px;
+  font-size: 1.5em;
+  text-decoration: none; 
 }
 
 .second-menu ul {
@@ -25,6 +32,7 @@
   flex-direction: column;
   padding-left: 0;
   list-style: none;
+  text-decoration: none;
 }
 
 .second-menu li {
@@ -50,4 +58,7 @@
   margin-left: 200px;
   border-bottom: 8px dotted rgb(253, 189, 52);
 }
+.container{
+  height: 100dvh;
 
+}

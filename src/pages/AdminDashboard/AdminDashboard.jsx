@@ -1,15 +1,16 @@
 import "./AdminDashboard.css";
-import CreateProduct from "../CreateProduct/CreateProduct";
-import ManageProduct from "../ManageProduct/ManageProduct";
+import { useNavigate } from "react-router-dom";
 
 const AdminDashboard = () => {
+  const Navigate = useNavigate()
   return (
     <div className="admin-dashboard">
       <div className="dashboard-navigation">
-        <button onClick={CreateProduct}>Create Product</button>
-        <button onClick={ManageProduct}>Manage Product</button>
+        <button onClick={()=>Navigate("/CreateProduct")}>Create Product</button>
+        <button onClick={()=>Navigate("/ManageProduct")}>Manage Product</button>
       </div>
     </div>
+    
   );
 };
 

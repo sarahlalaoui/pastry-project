@@ -10,7 +10,7 @@ const Bread = () => {
     <div className="product">
       <div id="bread-anchor"></div>
       <div id="bread">
-        <h2>Bread</h2>
+        <h2 className="h2Bread">Bread</h2>
         <div className="product-container">
           <div className="plain-bread">
             <img src={plain} alt="plain bread" />

@@ -4,6 +4,11 @@ import { NavLink } from "react-router-dom";
 import Bread from "../../components/Bread/Bread";
 import Cake from "../../components/Cake/Cake";
 import Footer from "../../components/Footer/Footer";
+import Cupcake from "../../components/Cupcake/Cupcake";
+import Cookie from "../../components/Cookie/Cookie";
+import Donut from "../../components/Donut/Donut";
+import Pie from "../../components/Pie/Pie";
+import Customize from "../../components/Customize/Customize";
 
 const product = () => {
   return (
@@ -57,6 +62,11 @@ const product = () => {
       </div>
       <Bread></Bread>
       <Cake></Cake>
+      <Cupcake></Cupcake>
+      <Cookie></Cookie>
+      <Donut></Donut>
+      <Pie></Pie>
+      <Customize></Customize>
       <Footer></Footer>
     </div>
     </div>

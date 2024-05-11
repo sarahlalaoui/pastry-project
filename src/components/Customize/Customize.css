@@ -1,0 +1,37 @@
+.customize {
+  margin: 0 auto 100px auto;
+  text-align: center;}
+.customize h3 {
+  text-decoration: none;
+}
+
+.customize img {
+  width: 55%;
+  height: auto;
+  margin-left: 150px;
+}
+
+.customize h3 {
+  font-size: 1.7em;
+  color: rgb(85, 49, 2);
+  font-weight: 600;
+}
+
+.customize p {
+  margin-bottom: 50px;
+}
+
+.btnCustomize {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #b56f0d;
+
+ 
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.btnCustomize a{
+text-decoration: none;
+color: rgb(241, 231, 231);
+}

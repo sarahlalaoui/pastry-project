@@ -3,14 +3,12 @@ import pic from "../../assets/pic.png";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
 
-
-
 const Home = () => {
   // Function to scroll to the top of the page
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: "smooth" // Optional smooth scrolling behavior
+      behavior: "smooth", // Optional smooth scrolling behavior
     });
   };
 
@@ -34,25 +32,25 @@ const Home = () => {
 
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-  
+
   return (
     <div>
       <div className="pic" style={{ backgroundImage: `url(${pic})` }}>
         <div className="text">
-          <h2>The Best Bakery in Toronto</h2>
+          <h2>the Artistry of Pastry Making</h2>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure
-            obcaecati aliquid cumque nam, rem dolores pariatur quibusdam amet,
-            Adipisci, eaque esse!
+            Indulge in our meticulously crafted pastries, where tradition meets
+            innovation. From flaky croissants to fresh fruit tarts, each bite
+            tells a story of culinary excellence. Join us on a journey of
+            gastronomic delight and experience the magic of pastry perfection.
           </p>
-          <Link to="/Contact"> <button>Contact us</button></Link>
-          <button
-        id="scrollToTopBtn"
-        title="Go to top"
-        onClick={scrollToTop}
-      >
-        &#8593;
-      </button>
+          <Link to="/Contact">
+            {" "}
+            <button>Contact us</button>
+          </Link>
+          <button id="scrollToTopBtn" title="Go to top" onClick={scrollToTop}>
+            &#8593;
+          </button>
         </div>
       </div>
     </div>

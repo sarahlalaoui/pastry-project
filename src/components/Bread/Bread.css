@@ -18,10 +18,11 @@
 #bread{
     margin-top: 80px;
     display: inline-block;
-    width: 100%;
+    width: 80%;
+    margin-left: 100px;
 }
 
 #bread img{
-    width: 120px;
+    width: 100px;
     height: auto;
 }

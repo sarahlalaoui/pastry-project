@@ -10,8 +10,8 @@ const CreateProduct = () => {
   const handlesubmit = (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
-    const productname = formData.get("productname");
-    const prix = formData.get("prix");
+    const productname = formData.append("productname");
+    const prix = formData.append("prix");
 
     const image = productImg
     formData.append("image",image)

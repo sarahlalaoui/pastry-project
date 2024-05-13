@@ -1,18 +1,15 @@
 .map {
-  border: 0;
   align-items: center;
-  
+  border-radius: 5px;
 }
-.map h2{
-    margin-left: 560px;
-}
-.mapseul{
-    width: 800px;
-    height: 420px;
-    margin-left: 240px;
+.map h2 {
+  margin-top: 0px;
+  margin-bottom: 70px;
+  margin-left: 550px;
 }
 
-iframe{
-    width: 90%;
+iframe {
+  width: 60%;
+  margin-left: 260px;
+  margin-bottom: 25px;
 }
-

@@ -40,22 +40,22 @@ const product = () => {
         <nav>
           <ul>
             <li className="navlist">
-              <Link to="#bread-anchor">Bread</Link>
+              <Link to="#Bread">Bread</Link>
             </li>
             <li className="navlist">
-              <Link to="#cake-anchor">Cake</Link>
+              <Link to="#cake">Cake</Link>
             </li>
             <li className="navlist">
-              <Link to="#cupcake-anchor">Cupcake</Link>
+              <Link to="#cupcake">Cupcake</Link>
             </li>
             <li className="navlist">
-              <Link to="#cookie-anchor">Cookie</Link>
+              <Link to="#cookie">Cookie</Link>
             </li>
             <li className="navlist">
-              <Link to="#donut-anchor">Donut</Link>
+              <Link to="#donut">Donut</Link>
             </li>
             <li className="navlist">
-              <Link to="#pie-anchor">Pie</Link>
+              <Link to="#pie">Pie</Link>
             </li>
           </ul>
         </nav>

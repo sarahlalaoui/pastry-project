@@ -5,6 +5,7 @@ import Italian from "../../assets/bread/italian-bread.jpg";
 import corn from "../../assets/bread/corn.jpg";
 import whole from "../../assets/bread/whole-wheat.jpg";
 
+
 const Bread = () => {
   return (
     <div className="product">

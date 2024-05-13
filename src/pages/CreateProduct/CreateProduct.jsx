@@ -10,8 +10,10 @@ const CreateProduct = () => {
   const handlesubmit = (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
-    const productname = formData.append("productname");
-    const prix = formData.append("prix");
+    const productname = formData.get("productname");
+    const prix = formData.get("prix");
+    
+    
 
     const image = productImg
     formData.append("image",image)
@@ -40,7 +42,7 @@ const CreateProduct = () => {
           />
           <img src={productImg} className="profile-img" alt="pfp" />
           <label htmlFor="actual-btn" className="upload-btn">
-            Add profile pic
+            {/* Add profile pic */}
           </label>
         </div>
         <button type="submit">Add a product</button>
